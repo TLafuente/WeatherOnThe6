@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WEATHER DASHBOARD</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <!-- Search field and button -->
+            <form id="city-search-form">
+                <input type="text" id="city-input" placeholder="Enter a city">
+                <button type="submit">Search</button>
+            </form>
+            <!-- Primary cities -->
+            <div id="primary-cities">
+                <h2>Primary Cities</h2>
+                <ul>
+                    <li>New York</li>
+                    <li>Los Angeles</li>
+                    <li>Chicago</li>
+                    <!-- Add more primary cities as needed -->
+                </ul>
+            </div>
+
+        <main>
+            <!-- Current city and 5-day forecast will be displayed here -->
+            <div id="current-city">
+                <!-- Display current city data here -->
+            </div>
+            <div id="forecast">
+                <!-- Display 5-day forecast data here -->
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
