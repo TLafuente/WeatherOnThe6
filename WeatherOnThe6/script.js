@@ -1,7 +1,7 @@
-// Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+
 const apiKey = 'https://api.weather.gov';
 
-// Function to fetch weather data
+
 function fetchWeatherData(cityName) {
     const apiUrl = `https://api.weather.gov`;
 
